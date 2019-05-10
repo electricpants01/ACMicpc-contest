@@ -18,3 +18,7 @@ function holaworld(){
  return "hola mundo";
 }
 
+
+function saludo2(){
+ return "hola 2";
+}
