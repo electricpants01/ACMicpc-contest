@@ -1,4 +1,9 @@
 
+
+funtion foo(){
+ return "foo";
+}
+
 function saludo(){
  return "hola julio";
 }
@@ -7,7 +12,7 @@ function saludo(){
 
 function hola(){
  
- return "hola christian";
+ return "hola christia";
 }
-
+ 
 
