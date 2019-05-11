@@ -8,6 +8,9 @@ function saludo(){
  return "saludo";
 }
 
+function holaworld(){
+ return "hola mundo";
+}
 
 
 function hola(){
