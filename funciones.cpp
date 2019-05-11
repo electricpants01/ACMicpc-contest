@@ -22,3 +22,7 @@ function holaworld(){
 function saludo2(){
  return "hola 2";
 }
+
+function saludo3(){
+ return "hola 3";
+}
