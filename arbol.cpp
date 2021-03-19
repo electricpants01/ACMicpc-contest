@@ -3,48 +3,47 @@
 using namespace std;
 
 struct Nodo{
- char valor;
- Nodo *izq = NULL;
- Nodo *der = NULL; 
+  int valor;
+  Nodo *izquierda = NULL;
+  Nodo *derecha = NULL;
 };
+
 Nodo *raiz = NULL;
 
-void insertar(char v){
+void insertar(int d){
  if(raiz == NULL){
   raiz = new Nodo();
-  raiz->valor = v;
+  raiz->valor = d;
  }else{
-  Nodo *nuevo = new Nodo();
-  nuevo->valor = v;
   Nodo *aux = raiz;
   Nodo *anterior;
   while( aux != NULL){
    anterior = aux;
-   if( aux->valor < v ) aux = aux->der;
-   else aux = aux->izq;
+   if( aux->valor > d) aux = aux->izquierda;
+   else aux = aux->derecha;
   }
-  if(anterior->valor > v) anterior->der = nuevo;
-  else anterior->izq = nuevo;
+   Nodo *nuevo = new Nodo();
+   nuevo->valor = d;
+  if( anterior->valor > d ) anterior->izquierda = nuevo;
+  else anterior->derecha = nuevo;  
  }
 }
 
-void mostrar(Nodo *nodo){
- if(nodo != NULL){
-  cout<<nodo->valor<<" , ";
-  if( nodo->izq != NULL ) mostrar(nodo->izq);
-  if( nodo->der != NULL) mostrar(nodo->der);
- }
+void mostrar(Nodo *aux){
+ cout<<aux->valor<<" ";
+ if(aux->izquierda != NULL ) mostrar(aux->izquierda);
+ if(aux->derecha != NULL) mostrar(aux->derecha);
 }
 
 int main(){
+
+ int n;
+ cin>>n;
+ while(n--){
  int d;
- cout<<"cuantos datos va meter en el arbol : ";
- cin>>d;
- while(d--){
-  char a;
-  cout<<"Escriba un caracter : ";
-  cin>>a;
-  insertar(a);
+ cout<<"introduzca un valor : ";
+ cin>>d; 
+ insertar(d); 
  }
  mostrar(raiz);
  return 0;
