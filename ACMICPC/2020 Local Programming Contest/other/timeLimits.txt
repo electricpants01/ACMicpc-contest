@@ -1,0 +1,12 @@
+virus       5
+elect       5
+microwave   5
+food        10
+connect     5
+books       5
+badtree     1
+hanoi       10
+incoming    5
+solitaire   1
+logging     5
+transport   5

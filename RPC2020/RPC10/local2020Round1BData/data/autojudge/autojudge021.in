@@ -1,0 +1,23 @@
+testblanklines
+testblanklines.cpp
+0 5 2
+9
+Now we have a case that has nothing but blank lines in the
+submission output.
+
+Even though the "correct output" section of this autojudge
+input file is constrained to have non-blank lines as its
+first and last lines, the "submission output" section is
+not constrained in the same way.
+
+     But nothing says it can't be indented.
+9
+
+
+
+
+
+
+
+
+

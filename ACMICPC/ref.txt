@@ -1,0 +1,20 @@
+// North amercica Regional + Solutions
+https://www.cse.sdsmt.edu/ecorwin/midcentral/_static/archives/
+
+// Latin america + inputs and outputs
+http://maratona.sbc.org.br/hist/
+
+//World final + solutions
+https://icpc.global/worldfinals/problems
+
+//primera Fase Brasilera
+http://maratona.sbc.org.br/primfase20.html
+
+// complete reference to Programmer + learning notes + problems + solutions
+http://www.cs.ucf.edu/~dmarino/progcontests/
+
+video con las soluciones subregional brazil
+https://www.youtube.com/watch?v=0eWr-ybZy_A&feature=youtu.be&fbclid=IwAR3NMnNGt3Tclk0gj3vlOAqjaMpxvOzUtKkvkvntTl112JRYyZPNqaYA_hg
+
+//northern eurasia + problems + editorial + solutions code
+https://neerc.ifmo.ru/archive/2020.html

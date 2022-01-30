@@ -1,0 +1,25 @@
+maximumfilenamelngth
+maximumfilenamelngth.java
+0 4 4
+10
+This case also has the maximum amount of output permitted in the spec-
+ification, ten lines with 70 characters each. Other cases will be used
+to test things like blank lines in this "correct output" section ofthe
+input for this autojudge problem. Here are some blank lines:
+
+
+Note that a real autojudge program would have to deal with lots of po-
+tentially bad behaviours of a submitted program, including infinite lo
+ops which generate unconstrained amounts of output. This program hope-
+fully gives some people an idea of how an autojudge might work. Finis.
+10
+This case also has the maximum amount of output permitted in the spec-
+ification, ten lines with 70 characters each. Other cases will be used
+to test things like blank lines in this "correct output" section ofthe
+input for this autojudge problem. Here are some blank lines:
+
+
+Note that a real autojudge program would have to deal with lots of po-
+tentially bad behaviours of a submitted program, including infinite lo
+ops which generate unconstrained amounts of output. This program hope-
+fully gives some people an idea of how an autojudge might work. Finis.

@@ -1,0 +1,8 @@
+ACM-ICPC on codeforces judge with pdf solution
+https://codeforces.com/gym/102861
+video con las soluiciones
+https://www.youtube.com/watch?v=0eWr-ybZy_A&feature=youtu.be&fbclid=IwAR3NMnNGt3Tclk0gj3vlOAqjaMpxvOzUtKkvkvntTl112JRYyZPNqaYA_hg
+
+//regionales + problemas + soluciones + learning notes
+http://www.cs.ucf.edu/~dmarino/progcontests/
+
