@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E re
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Locoto\Documents\Algorithms
+CMAKE_SOURCE_DIR = "C:\Users\Locoto\Documents\CP algorithms\ACMicpc-contest"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Locoto\Documents\Algorithms\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\Locoto\Documents\CP algorithms\ACMicpc-contest\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Locoto\Documents\Algorithms\cmake-build-debug\CMakeFiles C:\Users\Locoto\Documents\Algorithms\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Locoto\Documents\CP algorithms\ACMicpc-contest\cmake-build-debug\CMakeFiles" "C:\Users\Locoto\Documents\CP algorithms\ACMicpc-contest\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Locoto\Documents\Algorithms\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Locoto\Documents\CP algorithms\ACMicpc-contest\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target

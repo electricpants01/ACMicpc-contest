@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Locoto/Documents/Algorithms/main.cpp" "C:/Users/Locoto/Documents/Algorithms/cmake-build-debug/CMakeFiles/hola.dir/main.cpp.obj"
+  "C:/Users/Locoto/Documents/CP algorithms/ACMicpc-contest/main.cpp" "C:/Users/Locoto/Documents/CP algorithms/ACMicpc-contest/cmake-build-debug/CMakeFiles/hola.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
